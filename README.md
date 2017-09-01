@@ -5,6 +5,10 @@ A [D3](http://d3js.org) reusable sunburst bar chart This helps represent values 
 ## Example
 Refer [example.html](example.html) for a usage
 
+## Implementation
+
+The implementation follows the [reusable charts](http://bost.ocks.org/mike/chart/) convention proposed by Mike Bostock.
+
 ## Configuration
 
 CSS configuration has been exposed to outside using style classes. Change the `svg` font depending on the `edge` you configure for the chart

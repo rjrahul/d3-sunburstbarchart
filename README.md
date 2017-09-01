@@ -20,6 +20,9 @@ Allowed configuration values are
 * **maxBarValue** - Maximum bar value, default `5`
 * **rotation** - Rotation of the chart, default `-95 degrees`
 
+## TODO
+* Update so that wrapping of text lines can be done automatically and user does not need to specify the wrapped data. Reference can be [Wrapping Long Labels](https://bl.ocks.org/mbostock/7555321) by [Mike Bostock](https://bl.ocks.org/mbostock)
+
 # License
 
 MIT license

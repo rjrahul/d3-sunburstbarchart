@@ -3,7 +3,7 @@
 A [D3](http://d3js.org) reusable sunburst bar chart This helps represent values as on/off boxes rather than a simple bar chart extending from 0 to value.
 
 ## Example
-Refer [example.html](example.html) for a usage
+Refer [example.html](example.html) for a usage. You can [demo](https://bl.ocks.org/rjrahul/8fbd663d00dacad9fcee6c0462bd1722) here.
 
 ## Implementation
 

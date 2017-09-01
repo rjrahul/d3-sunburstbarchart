@@ -6,7 +6,7 @@
             "textLines": ["Lead Time", "(DoR to Live)"], 
             "value": 1
         }, {
-            "textLines": ["Time to Create", "a New Environment"], 
+            "textLines": ["Time to Create a", "New Environment"], 
             "value": 1
         }, {
             "textLines": ["Number of", "Check-ins Per Day", "in Master"], 

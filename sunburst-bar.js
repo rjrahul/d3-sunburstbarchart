@@ -189,8 +189,8 @@ function sunburstBarChart() {
 
   chart.edge = function(_) {
     if(arguments.length) {
-      edge = _;
-      effectiveEdge = edge * 1.2
+      effectiveEdge = _;
+      edge = effectiveEdge * 0.833333;
       radius = edge / 2;
     }
     return chart;

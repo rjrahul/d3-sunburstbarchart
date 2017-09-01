@@ -1,0 +1,79 @@
+{
+    "textLines": ["Engineering", "Maturity"],
+    "groups": [{
+        "textLines": ["Productivity"],
+        "bars": [{
+            "textLines": ["Lead Time", "(DoR to Live)"], 
+            "value": 1
+        }, {
+            "textLines": ["Time to Create", "a New Environment"], 
+            "value": 1
+        }, {
+            "textLines": ["Number of", "Check-ins Per Day", "in Master"], 
+            "value": 1
+        }, {
+            "textLines": ["Time to Fix", "a Broken Build"], 
+            "value": 1
+        }, {
+            "textLines": ["Release and", "Deploy Time"], 
+            "value": 1
+        }, {
+            "textLines": ["Code Build", "Time"], 
+            "value": 1
+        }, {
+            "textLines":["Flow", "Efficiency"], 
+            "value": 3
+        }, {
+            "textLines": ["Functional Test", "Execution Time"], 
+            "value": 2
+        }, {
+            "textLines": ["Sprint", "Predictability"], 
+            "value": 4
+        }, {
+            "textLines": ["DoD", "to Live"], 
+            "value": 2
+        }, {
+            "textLines": ["DoR", "to DoD"], 
+            "value": 4
+        }]
+    }, {
+        "textLines": ["People"],
+        "bars": [{
+            "textLines":["Improvement"], 
+            "value": 5
+        }, {
+            "textLines": ["Happiness", "Index"], 
+            "value": 4
+        }]
+    }, {
+        "textLines": ["Value"],
+        "bars": [{
+            "textLines": ["Delivered", "Value"], 
+            "value": 1
+        }, {
+            "textLines": ["Value", "Association"], 
+            "value": 1
+        }]
+    }, {
+        "textLines": ["Quality"],
+        "bars": [{
+            "textLines": ["Completed Story", "Demonstrated to", "Product Owner"], 
+            "value": 1
+        }, {
+            "textLines": ["JSUnit Coverage", "& Pass %"], 
+            "value": 1
+        }, {
+            "textLines": ["JUnit Coverage", "& Pass %"], 
+            "value": 1
+        }, {
+            "textLines": ["Automated", "Test %"], 
+            "value": 4
+        }, {
+            "textLines": ["Code", "Quality"], 
+            "value": 1
+        }, {
+            "textLines": ["Defect Injection", "Rate"], 
+            "value": 3
+        }]
+    }]
+}

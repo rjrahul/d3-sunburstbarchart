@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    position: relative;
+    width: 960px;
+  }
+
+  svg {
+    font: 10px sans-serif;
+  }
+
+  .group-1-off {
+    fill: #b5cf6b;
+  }
+
+  .group-1-on {
+    fill: #637939;
+  }
+
+  .group-2-off {
+    fill: #969696;
+  }
+
+  .group-2-on {
+    fill: #636363;
+  }
+
+  .group-3-off {
+    fill: #9ecae1;
+  }
+
+  .group-3-on {
+    fill: #3182bd;
+  }
+
+  .group-4-off {
+    fill: #a1d99b;
+  }
+
+  .group-4-on {
+    fill: #31a354;
+  }
+
+  .labelText {
+    font-size: 0.85em;
+    fill: #000;
+  }
+
+  .labelTextBackground {
+    fill: #bdbdbd;
+  }
+
+  .outerLabelText {
+    font-size: 1.5em;
+    fill: #fff;
+  }
+
+  .nodesBorder {
+    stroke: #fff;
+  }
+
+  .outerCircleBorder {
+    stroke: #fff;
+    stroke-width: 2px;
+  }
+
+  .centerLabelText {
+    font-size: 3em;
+    fill: #000;
+  }
+</style>
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="sunburst-bar.js"></script>
+
+<script>
+  d3.json("data.json", function(error, root) {
+    if (error) throw error;
+
+    d3.select("body").datum(root).call(sunburstBarChart().edge(600).maxBarValue(5).rotation(-95 * Math.PI / 180));
+  });
+</script>
